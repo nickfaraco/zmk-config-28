@@ -1,0 +1,7 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+    chosen {
+        /delete-property/ zephyr,display;
+    };
+};
