@@ -10,10 +10,6 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: zmk-keyboard-chocofi
-      url: https://github.com/s-gregorini003/zmk-keyboard-chocofi
-      revision: main
-      path: modules/zmk-keyboard-chocofi
     - name: zmk-tri-state
       url: https://github.com/urob/zmk-tri-state
       revision: main
