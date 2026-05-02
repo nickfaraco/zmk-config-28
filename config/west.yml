@@ -10,5 +10,25 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-keyboard-chocofi
+      url: https://github.com/s-gregorini003/zmk-keyboard-chocofi
+      revision: main
+      path: modules/zmk-keyboard-chocofi
+    - name: zmk-tri-state
+      url: https://github.com/urob/zmk-tri-state
+      revision: main
+      path: modules/zmk-tri-state
+    - name: zmk-unicode
+      url: https://github.com/urob/zmk-unicode
+      revision: main
+      path: modules/zmk-unicode
+    - name: zmk-leader-key
+      url: https://github.com/urob/zmk-leader-key
+      revision: main
+      path: modules/zmk-leader-key
+    - name: zmk-helpers
+      url: https://github.com/urob/zmk-helpers
+      revision: main
+      path: modules/zmk-helpers
   self:
     path: config
